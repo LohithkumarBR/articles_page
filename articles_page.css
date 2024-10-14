@@ -1,0 +1,113 @@
+@import url("https://fonts.googleapis.com/css2?family=Bree+Serif&family=Caveat:wght@400;700&family=Lobster&family=Monoton&family=Open+Sans:ital,wght@0,400;0,700;1,400;1,700&family=Playfair+Display+SC:ital,wght@0,400;0,700;1,700&family=Playfair+Display:ital,wght@0,400;0,700;1,700&family=Roboto:ital,wght@0,400;0,700;1,400;1,700&family=Source+Sans+Pro:ital,wght@0,400;0,700;1,700&family=Work+Sans:ital,wght@0,400;0,700;1,700&display=swap");
+
+.article-page-bg-container {
+    background-color: #225db0;
+    height: 100vh;
+    background-size: cover;
+    padding: 16px;
+}
+
+.heading-description {
+    padding-left: 22px;
+    padding-top: 22px;
+}
+
+.article-page-card-container-1 {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    margin: 20px;
+}
+
+.article-page-card-container-2 {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    margin: 20px;
+}
+
+@media screen and (min-width: 768px) {
+    .article-page-card-container {
+        margin: 100px;
+    }
+}
+
+.article-page-heading {
+    color: #ffffff;
+    font-family: "Roboto";
+    font-size: 30px;
+
+}
+
+.article-page-description {
+    color: #ffffff;
+    font-family: "Roboto";
+    font-size: 14px;
+}
+
+
+.article-page-card-bg-container {
+    height: 100%;
+    background-color: #225db0;
+    padding: 18px;
+}
+
+.article-page-card-heading {
+    color: #1f2933;
+    font-family: "Roboto";
+    font-size: 14px;
+    padding-top: 8px;
+}
+
+.articles-technology-icon-img {
+    height: 10vh;
+    width: 10vw;
+}
+
+.articles-science-icon-img {
+    height: 10vh;
+    width: 10vw;
+}
+
+.articles-healthcare-icon-img {
+    height: 10vh;
+    width: 10vw;
+}
+
+.articles-business-icon-img {
+    height: 10vh;
+    width: 10vw;
+}
+
+.card-item {
+    text-align: center;
+    background-color: #ffffff;
+    width: 140px;
+    border-radius: 9px;
+    margin: 10px;
+    padding: 12px;
+}
+
+.article-heading {
+    color: #ffffff;
+    font-size: 26px;
+    font-family: "Roboto";
+    padding-top: 10px;
+}
+
+.list-item {
+    color: #ffffff;
+    font-size: 16px;
+    font-family: "Roboto";
+    margin-bottom: 8px;
+}
+
+.button {
+    background-color: #225db0;
+    color: #ffffff;
+    height: 38px;
+    width: 78px;
+    border-style: solid;
+    border-color: #ffffff;
+    border-radius: 12px;
+}
